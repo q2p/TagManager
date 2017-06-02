@@ -1,0 +1,108 @@
+* {
+	font-family: sans-serif;
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
+	font-size: 18px;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+html {
+	background-color: #000000;
+	color: #ffffff;
+	min-width: 512px;
+}
+#sidebar {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 256px;
+	overflow-y: auto;
+}
+#sidebar > p {
+	padding-left:4px;
+}
+#content {
+	position: fixed;
+	overflow: auto;
+	left: 260px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+}
+#search_bar {
+	position: fixed;
+	height: 28px;
+	top: 0px;
+	left: 28px;
+	right: 0px;
+}
+input[type="search"] {
+	position: static;
+	border-style: none;
+	background-color: #0f0f0f;
+	width: 100%;
+	height: 24px;
+	color: #ffffff;
+	outline: none;
+}
+input[type="submit"] {
+	position: static;
+	border-style: none;
+	background-color: #0f0f0f;
+	width: 100%;
+	height: 24px;
+	color: #ffffff;
+	outline: none;
+}
+input[type="submit"]:hover {
+	background-color: #7f00ff;
+}
+.item {
+	text-decoration: none;
+	display: block;
+	position: relative;
+	height: 24px;
+	margin-bottom: 4px;
+}
+.number {
+    display: block;
+    float: left;
+	height: 24px;
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #ffffff;
+}
+.number > div {
+	display: inline-block;
+	width: 11px;
+	text-align: center;
+}
+.title {
+    overflow: hidden;
+	height: 24px;
+}
+.info_block {
+	height: 24px;
+	float: right;
+	padding-right:4px;
+}
+.nothing {
+	margin-top: 4px;
+	text-align: center;
+}
+.page {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	height: 24px;
+	margin-bottom: 4px;
+	text-align: center;
+	background-color: #0f0f0f;
+}
+.page:hover {
+	background-color: #7f00ff;
+}
